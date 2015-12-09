@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Cadastro do Imovel </title>
+    <meta name="description" content="Cadastre usuário e a localização do imovel">
+    <meta http-equiv="content-type"content="text/html;charset=utf-8">
+    <link rel="stylesheet" href="styles.css">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="script.js"></script>
+      <link rel="stylesheet" href= "CSS/estilo.css">
+
+    </head>
+  <body>
+    <h1>Bem vindo ao site Adequar Engenharia LTDA</h1>
+    <h2> Preencha o formulário abaixo que logo entraremos em contato </h2><br/>
+
+
+
+    <form action= "Script_do_Formulario.php" method="post">
+
+      <!--Dados pessoais-->
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+        <table>
+          <tr>
+            <td>
+              <label for="email">Email:</label>
+            </td>
+            <td align= "left">
+              <input type="text" name="email">
+            </td>
+            <td>
+              <label for="imovel">Imovel:</label>
+            </td>
+            <td align="left">
+              <input type="text" name="imovel">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="area do terreno">Area do terreno:</label>
+            </td>
+              <td align="left">
+                <input type="text" name="area do terreno">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="linha de producao">Linha de produção:</label>
+              </td>
+              <td align="left">
+                <input type="text"name="linha de producao" size="40" maxlength="40">
+              </td>
+            </tr>
+
+
+              </table>
+      </fieldset>
+
+
+
+<!--Endereço -->
+<fieldset>
+  <legend> Dados de endereço do imóvel</legend>
+  <table cellspacing="10">
+
+    <tr>
+      <td>
+        <label for="rua"> Rua:</label>
+      </td>
+      <td align ="left">
+        <input type="text" name="rua">
+      </td>
+      <td>
+        <label for="numero">Numero:</label>
+      </td>
+      <td align="left">
+        <input type="text" name= "numero" size="5">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="bairro">bairro:</label>
+        </td>
+        <td align="left">
+          <select name="bairro">
+            <option value="Algodões">Algodões</option>
+            <option value="Boa Vista">Boa Vista</option>
+            <option value="Centro">Centro</option>
+            <option value="Cerâmica"> Ceramica</option>
+            <option value="D. Lindu">D. Lindu</option>
+            <option value="Dente Grande">Dente Grande</option>
+            <option value="Esplanada">Esplanada</option>
+            <option value="Gameileiras">Gameleiras</option>
+            <option value="Jardim das Acacias">Veredas</option>
+            <option value="Jardim Imperial"> Jardim Imperial</option>
+            <option value="Outro">outro</option>
+            <option value="Padre Eustaquio">Padre Eustaquio</option>
+            <option value="Pedra Preta">Pedra Preta</option>
+            <option value="Planalto">Planalto</option>
+            <option value="Ribeirão do Ouro">Ribeirao do Ouro</option>
+            <option value="Rio Novo">Rio Novo</option>
+            <option value="São Gonçalo">São Gonçalo</option>
+            <option value="São Lucas">São Lucas</option>
+            <option value="Santa Terezinha">Santa Terezinha</option>
+            <option value="Santa Cruz"> Santa Cruz</option>
+            <option value="Santo Antônio">Santo Antônio</option>
+            <option value="Saudade">Saudade</option>
+            <option value="Veredas">Veredas</option>
+          </select>
+        </td>
+      </tr>
+    </table>
+  </fieldset>
+
+  <br />
+
+  <!--Dados de Login -->
+  <fieldset>
+    <legend> Dados de login</legend>
+    <table cellspacing="10">
+      <tr>
+        <td>
+          <label for "email"> E-mail:</label>
+        </td>
+        <td align="left">
+          <input type="text" name="email">
+        </td>
+      </tr>
+    </tr>
+    <td>
+      <label for="imagemarea"> Imagem da area:</label>
+    </td>
+    <td>
+      <input type="file" name="imagemarea">
+
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <label for="login"> Login de usuário: </label>
+    </td>
+    <td align = "left">
+      <input type="text" name= "login">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <label for="passconfirm"> Confirme a senha:</label>
+    </td>
+    <td align="left">
+    <input type="password" name= "passconfirm">
+  </td>
+</tr>
+</table>
+</fieldset>
+
+
+<br />
+<input type= "submit">
+<input type="reset" value"Limpar">
+</form>
+
+
+  </body>
+</html>

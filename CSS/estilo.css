@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+p{
+  color: black;
+  font-size:10pt
+  font-weight: bold;
+}
+div#interface{
+  width: 800px;
+  background-color:#9ACD32;
+margin:0px auto 0px auto;
+padding: 20px;
+
+}
